@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">tomato_disease_detect</string>
+    <string name="marathi_comp1">छायाचित्र काढा</string>
+    <string name="marathi_comp2">गॅलरी लाँच करा</string>
+    <string name="marathi_comp3">वर्गीकरण:</string>
+    <string name="marathi_comp4">शक्यता:</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button2"
+        android:layout_centerInParent="true"
+        android:text="@string/marathi_comp1"
+        android:textAllCaps="false"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/button2"
+        android:text="@string/marathi_comp2"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/marathi_comp3"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/classified"
+        android:layout_below="@+id/imageView"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="#C30000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/result"
+        android:layout_below="@+id/classified"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="#C30000"
+        android:textSize="10sp"
+        android:id="@+id/confidenceTextView"
+        android:layout_below="@+id/result"
+        />
+
+    <TextView
+        android:id="@+id/remediesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:textSize="15sp"
+        android:layout_below="@+id/confidenceTextView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_above="@id/button"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        />
+
+
+</RelativeLayout>
